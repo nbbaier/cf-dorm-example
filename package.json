@@ -1,19 +1,20 @@
 {
-  "name": "cf-dorm-example",
-  "version": "1.0.0-next.27",
-  "files": [
-    "mod.ts"
-  ],
-  "main": "mod.ts",
-  "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250415.0"
-  },
-  "dependencies": {
-    "migratable-object": "^0.0.8",
-    "multistub": "^0.0.7",
-    "multistub-query": "^0.0.1",
-    "queryable-object": "^0.0.1",
-    "remote-sql-cursor": "^0.1.9",
-    "transferable-object": "^0.0.4"
-  }
+	"name": "cf-dorm-example",
+	"version": "1.0.0-next.27",
+	"files": [
+		"mod.ts"
+	],
+	"main": "mod.ts",
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20250415.0"
+	},
+	"dependencies": {
+		"dormroom": "^1.0.0-next.27",
+		"migratable-object": "^0.0.8",
+		"multistub": "^0.0.7",
+		"multistub-query": "^0.0.1",
+		"queryable-object": "^0.0.1",
+		"remote-sql-cursor": "^0.1.9",
+		"transferable-object": "^0.0.4"
+	}
 }
