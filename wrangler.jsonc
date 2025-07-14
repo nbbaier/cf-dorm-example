@@ -1,0 +1,15 @@
+{
+  "name": "cf-dorm-example",
+  "main": "template.ts",
+  "assets": { "directory": "./" },
+  "compatibility_date": "2024-04-15",
+  "dev": { "port": 3000 },
+  "routes": [
+    { "custom_domain": true, "pattern": "dorm.wilmake.com" },
+    { "custom_domain": true, "pattern": "demo.getdorm.com" }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "DORM_NAMESPACE", "class_name": "DORM" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["DORM"] }]
+}
