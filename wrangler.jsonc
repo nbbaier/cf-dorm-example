@@ -7,6 +7,5 @@
 	"durable_objects": {
 		"bindings": [{ "name": "DORM_NAMESPACE", "class_name": "DORM" }]
 	},
-	"migrations": [{ "tag": "v1", "new_sqlite_classes": ["DORM"] }],
-	"tags": ["gh:nbbaier/cf-dorm-example"]
+	"migrations": [{ "tag": "v1", "new_sqlite_classes": ["DORM"] }]
 }
