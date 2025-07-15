@@ -1,11 +1,12 @@
 {
 	"name": "cf-dorm-example",
-	"main": "template.ts",
+	"main": "index.ts",
 	"assets": { "directory": "./" },
 	"compatibility_date": "2025-07-13",
 	"dev": { "port": 3000 },
 	"durable_objects": {
 		"bindings": [{ "name": "DORM_NAMESPACE", "class_name": "DORM" }]
 	},
-	"migrations": [{ "tag": "v1", "new_sqlite_classes": ["DORM"] }]
+	"migrations": [{ "tag": "v1", "new_sqlite_classes": ["DORM"] }],
+	"tags": ["gh:nbbaier/cf-dorm-example"]
 }
